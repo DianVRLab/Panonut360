@@ -1,0 +1,99 @@
+.main-section { 
+    /* set position of main section 10px from the element above */
+    width: 100%;
+    margin-top: +50px;
+    position: relative;
+    /* Allow main-section to grow and fill the remaining space */
+    flex-grow: 1;
+    
+    /* background-color: #926480; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section-content-container {
+    /* set position of main section content */
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: white; */
+    /* opacity: 0.5; */
+    
+    /*rounded corner*/
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    transition: box-shadow 0.3s;
+}
+
+/*add border shadow to it when on hover*/
+.main-section-content-container:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.main-section-content-container .content {
+    margin-top: 25px;
+    position: relative;
+    width: 94%;
+    height: 100%;
+    /* background-color: #ffffff; */
+    /* font-size: 150%; */
+}
+
+.main-section-content-container .content li{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.main-section-content-container .content a {
+    margin: 0;
+
+    padding-bottom: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #b3b3b3;
+    color: #4e4e4e;
+
+    transition: border-bottom 0.3s;
+}
+
+.main-section-content-container .content .content-part {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.73em;
+}
+
+.main-section-content-container .content a:hover {
+    border-bottom: 1px solid black;
+}
+
+.main-section-content-container .content h6 {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.main-section-content-container .content .image-container {
+    width: 100%;
+}
+
+.main-section-content-container .content .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.main-section-content-container .content p {
+    margin: 0;
+    margin-bottom: 1.73em;
+}
+
+.main-section-content-container .dividing-line {
+    width: 95%;
+    height: 1px;
+    background-color: black;
+}
