@@ -98,7 +98,7 @@
 
 .header-res .container {
     position: relative;
-    width: 50%;
+    width: 70%;
     height: 100%;
     /* background-color: #80b1ea; */
 
@@ -109,12 +109,12 @@
 
 .header-res .container .logo-container {
     position: relative;
-    width: 36%;
+    width: 25%;
     height: 100%;
     /* background-color: #087e10; */
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -124,7 +124,7 @@
     height: 100%;
     /* background-color: #ff0000; */
 
-    margin-right: 6%;
+    /* margin-right: 6%; */
 
     display: flex;
     flex-direction: row;
@@ -133,8 +133,8 @@
 
 .header-res .container .logo-container .hust-logo-container img {
     position: relative;
-    width: 100%;
-    height: auto;
+    width: 120%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -144,7 +144,7 @@
     height: 100%;
     /* background-color: #493d3d; */
 
-    margin-top: 20%;
+    /* margin-top: 20%; */
 
     display: flex;
     flex-direction: row;
@@ -161,7 +161,7 @@
 .header-res .container .brief-container {
     position: relative;
     /* flex-grow: 1; */
-    width: 74%;
+    width: 75%;
     height: 100%;
     /* background-color: #c3e004; */
     
@@ -172,14 +172,28 @@
 
 .header-res .container .brief-container .brief {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 84%;
     /* background-color: #59a6cd; */
     object-fit: contain;
 
+    font-family: "Times New Roman";
+
+    margin-left: -50px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.header-res .container .brief-container .brief .hust-name {
+    font-size: 200%;
+    font-weight: 800;
+}
+
+.header-res .container .brief-container .brief .school-name {
+    font-size: 140%;
+    font-weight: 800;
 }
 
 /* .header-res .container .brief-container .brief .title-container {

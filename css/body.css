@@ -1,6 +1,6 @@
 /* set bodt no margin */
 .body {
-    background-image: url("../img/bgc.webp");
+    /* background-image: url("../img/bgc.webp"); */
     background-attachment: fixed;
 
     margin: 0;

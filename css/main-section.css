@@ -80,11 +80,14 @@
 
 .main-section-content-container .content .image-container {
     width: 100%;
+    border: #4e4e4e 1px solid;
+    border-radius: 10px;
 }
 
 .main-section-content-container .content .image-container img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .main-section-content-container .content p {
