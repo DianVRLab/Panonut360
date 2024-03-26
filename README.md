@@ -7,5 +7,13 @@ We present the Panonut360 dataset of 50 users (25 males and 25 females) recorded
 You can download the [dataset](https://drive.google.com/drive/folders/1g85yjNeFpTD_R6mMyQk9hy7oQrWaRiE_)  and the [videos](https://drive.google.com/drive/folders/1Nmi7QxqnQ7srXQXIQxdYWd1PV72-WMHm) from the link easily.
 
 ## File tree
-![alt text](img/_.png)
-This figure shows the file tree of the dataset. In VideoProfile, we provide more information about the videos; in DataProfile, we provide the column index descriptions for the user's head and eye tracking datasets.
+![alt text](img\filetree.bmp)
+This figure shows the file tree of the dataset. In *VideoProfile*, we provide more information about the videos; in *DataProfile*, we provide the column index descriptions for the user's head and eye tracking datasets.
+
+## Usage Demo
+You can generate some saliency maps based on the field of view (FoV) fixation by this script:
+
+```python
+python ./Script/Saliency.py
+```
+
